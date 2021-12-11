@@ -4,7 +4,7 @@ import './Possibility.css';
 
 const Possibility = () => {
   return (
-    <div className='possibility-cont'>
+    <div className='possibility-cont' id='openai'>
       <div className='possibility-row1'>
         <img src={possibility} alt='Possibility-Image' />
       </div>

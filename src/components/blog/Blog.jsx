@@ -9,7 +9,7 @@ import './Blog.css';
 
 const Blog = () => {
   return (
-    <div className='blog-cont'>
+    <div className='blog-cont' id='library'>
       <h1>A lot is happening, We are blogging about it.</h1>
 
       <div className='blog-img-cont'>

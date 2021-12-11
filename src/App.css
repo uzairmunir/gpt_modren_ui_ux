@@ -1,5 +1,6 @@
 body {
   background-color: var(--color-bg);
+  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;

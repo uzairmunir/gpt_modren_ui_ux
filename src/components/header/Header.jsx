@@ -5,7 +5,7 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <div className='header-container'>
+    <div className='header-container' id='home'>
       <div className='header-row-left'>
         <h1>Let's Build Something amazing with GPT-3 OpenAI</h1>
         <p>

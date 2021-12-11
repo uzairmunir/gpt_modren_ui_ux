@@ -12,19 +12,19 @@ const Navbar = () => {
       <img src={logo} alt='nav-logo' />
       <ul>
         <li>
-          <a href='#'>Home</a>
+          <a href='#home'>Home</a>
         </li>
         <li>
-          <a href='#'>What Is GTP3</a>
+          <a href='#gpt'>What Is GTP3</a>
         </li>
         <li>
-          <a href='#'>Open AI</a>
+          <a href='#openai'>Open AI</a>
         </li>
         <li>
-          <a href='#'>Case Studies</a>
+          <a href='#casestudy'>Case Studies</a>
         </li>
         <li>
-          <a href='#'>Library</a>
+          <a href='#library'>Library</a>
         </li>
       </ul>
       <div className='btn-div'>

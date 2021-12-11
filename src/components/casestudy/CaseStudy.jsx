@@ -3,7 +3,7 @@ import './CaseStudy.css';
 
 const CaseStudy = () => {
   return (
-    <div className='case-study-cont'>
+    <div className='case-study-cont' id='casestudy'>
       <div className='case-study-row1'>
         <h1>
           The Future is Now and You Just Need to Realize It. Step into Future

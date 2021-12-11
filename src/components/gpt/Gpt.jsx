@@ -4,7 +4,7 @@ import './gpt.css';
 
 const Gpt = () => {
   return (
-    <div className='gpt-cont'>
+    <div className='gpt-cont' id='gpt'>
       <div className='gpt-row-1'>
         <Feature
           title='What is GPT-3'
