@@ -1,0 +1,12 @@
+.brands-container {
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.brands-container > img {
+  width: 10rem;
+  height: 5rem;
+  object-fit: contain;
+  padding: 0 1rem;
+}

@@ -1,0 +1,79 @@
+.possibility-cont {
+  display: flex;
+  padding: 4rem;
+  color: white;
+  width: 100%;
+}
+.possibility-row1 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.possibility-row1 > img {
+  height: 100%;
+  width: 100%;
+}
+.possibility-row2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex: 1;
+}
+.possibility-row2 > h4 {
+  padding: 1rem 0;
+  color: cyan;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.possibility-row2 > h1 {
+  padding: 1rem 0;
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.5rem;
+}
+.possibility-row2 > p {
+  color: var(--color-text);
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+@media screen and (max-width: 550px) {
+  .possibility-cont {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .possibility-row2 {
+    margin: 1rem 0;
+  }
+  .possibility-row2 > h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 551px) and (max-width: 800px) {
+  .possibility-cont {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .possibility-row2 {
+    margin: 1rem 0;
+  }
+  .possibility-row2 > h1 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+  .possibility-cont {
+    padding: 1rem;
+  }
+  .possibility-row2 {
+    margin-left: 1rem;
+  }
+  .possibility-row2 > h1 {
+    font-size: 2.5rem;
+  }
+}
